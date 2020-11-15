@@ -10,9 +10,6 @@ import {
 } from './menu-item.styles';
 
 const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => {
-  console.log(linkUrl);
-  console.log(match);
-  console.log(history);
   return (
     <MenuItemContainer
       size={size}
